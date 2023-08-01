@@ -1,8 +1,10 @@
 body {
     margin: 0;
 }
+/* First section of website navbar, main  */
 .container {
     background-color: #1F2937; 
+    width: 100%;
 
 }
 .navbar {
@@ -29,19 +31,87 @@ ul {
     gap: 20px;
 }
 
+
+/* main/hero section */
+.main {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 20px;
+    
+}
 .hero {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
 }
-
+.heroleft {
+    max-width: 200px;
+}
 .herotext {
     font-size: 18px;
     color: #E5E7EB;
 }
-.main {
-    color: white;
-    display: flex;
-    align-items: center;
 
+.heropic {
+    max-width: 200px;
+    height: auto;
+}
+
+.heroleft button {
+    background-color: #3883F6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+/* Information section */
+
+.infosec {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.infoheader {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+.infoimg {
+    width:100px;
+    height: 100px;
+    object-fit: cover;
+    border: solid #3883F6;
+    border-radius: 8px;
+}
+
+.info {
+    justify-content: center;
+    align-items: center;
+    color: #152937;
+    font-size: 18px;
+}
+.text {
+    width:100px;
+    text-align: center;
+}
+
+/* section with garfields quote */
+
+.quotesec {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.quote {
+    
 }
