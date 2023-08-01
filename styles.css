@@ -174,3 +174,10 @@ ul {
 
 /* copyright section */
 
+.footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+}
